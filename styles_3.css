@@ -44,34 +44,26 @@ header div {
     background-color: rgba(255, 255, 255, 0.4);
 }
 
-/* Ajuste para pantallas pequeñas */
+/* Cambios para mejorar visualización en móviles */
 @media screen and (max-width: 600px) {
-    .header-button {
-        font-size: 12px; /* Reducir el tamaño de fuente en móviles */
-        padding: 8px 12px; /* Ajuste de padding para móviles */
-    }
-
-    header div {
-        flex-direction: column; /* En pantallas pequeñas, los botones se alinean en columna */
-        align-items: center;
-    }
-
+    /* Reducir tamaño de fuentes de la info-content */
     .info-content {
-        font-size: 18px; /* Reducir el tamaño de texto */
-        margin-top: 80px;
-        padding: 10px;
+        font-size: 16px;
+        padding: 20px;
+        margin-top: 0;  /* Ajusta el margen superior para que no se oculte el texto */
+        max-height: none;  /* Permite que el contenido ocupe toda la altura disponible */
     }
 
     .info-content p {
-        font-size: 16px; /* Reducir tamaño de párrafos */
+        font-size: 14px;
     }
 
     .info-content a {
-        font-size: 16px; /* Reducir tamaño de enlaces */
+        font-size: 16px;
     }
 
     .info-content h2 {
-        font-size: 40px; /* Reducir el tamaño del título */
+        font-size: 36px;
     }
 }
 
