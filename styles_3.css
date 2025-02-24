@@ -95,6 +95,9 @@ header div {
     margin-top: 100px;
     text-align: justify;
     line-height: 1.6;
+    overflow-y: auto; /* Permite el desplazamiento vertical */
+    max-height: calc(100vh - 160px); /* Limita la altura máxima para permitir el scroll */
+
 }
 
 .info-content p {
@@ -157,10 +160,7 @@ header div {
     .info-content h2 {
         font-size: 36px;
     }
-    .info-page{
-        overflow-y: auto; /* Agregamos scroll vertical */
 
-    }
 
 }
 
