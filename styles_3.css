@@ -157,5 +157,10 @@ header div {
     .info-content h2 {
         font-size: 36px;
     }
+    .info-page{
+        overflow-y: auto; /* Agregamos scroll vertical */
+
+    }
+
 }
 
